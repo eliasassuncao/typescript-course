@@ -1,6 +1,6 @@
 {
   "code-runner.clearPreviousOutput": true,
   "code-runner.executorMap": {
-    "typescript": "npx ts-node --files ./src",
+    "typescript": "npx ts-node --files",
   }
 }
