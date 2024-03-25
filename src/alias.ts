@@ -4,10 +4,10 @@ type Person = {
   favoriteColor?: string
 }
 
-type Colors = "red" | "green" | "blue"
+type Colors = 'red' | 'green' | 'blue'
 
 const person: Person = {
-  name: "Elias",
+  name: 'Elias',
   age: 25,
 }
 
@@ -15,7 +15,7 @@ function setFavoriteColor(person: Person, color: Colors): Person {
   return { ...person, favoriteColor: color }
 }
 
-const formattedPerson = setFavoriteColor(person, "blue")
+const formattedPerson = setFavoriteColor(person, 'blue')
 
 console.log(formattedPerson)
 
